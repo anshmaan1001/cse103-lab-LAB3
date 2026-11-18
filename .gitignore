@@ -1,2 +1,31 @@
+# Python bytecode
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual environments and secrets
+.env
+.venv/
+venv/
+ENV/
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
